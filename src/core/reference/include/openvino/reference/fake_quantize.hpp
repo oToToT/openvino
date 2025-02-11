@@ -7,15 +7,11 @@
 #include <algorithm>
 #include <cmath>
 #include <cstddef>
-#include <numeric>
-#include <utility>
 #include <vector>
 
-#include "openvino/core/except.hpp"
 #include "openvino/core/shape.hpp"
-#include "openvino/core/shape_util.hpp"
+#include "openvino/core/type/bfloat16.hpp"
 #include "openvino/op/util/attr_types.hpp"
-#include "openvino/reference/utils/coordinate_transform.hpp"
 
 namespace ov {
 namespace reference {
